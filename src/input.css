@@ -1,0 +1,43 @@
+.input-section {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: 2px transparent;
+    margin-left: 60px;
+    border-radius: 12px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.backgound-input {
+    background-image: url(/Users/pietrosaveri/Desktop/pasta-website/src/img/maccherone02.svg);
+    background-repeat: no-repeat;
+    background-position: -10px -200px;
+
+    width: 550px;
+    height: 550px;
+}
+
+.input-section:focus {
+    outline: none;
+}
+
+.resultText {
+    color: rgb(255, 236, 208);
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.erorr-message {
+    color: red;
+    margin-top: 24px;
+    width: 1200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

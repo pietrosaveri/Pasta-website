@@ -1,0 +1,58 @@
+.text {
+    color: rgb(255, 236, 208);
+    font-family: "Impact";
+    margin-top: 5px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-us-container {
+    display: flex;
+    min-height: 200vh;
+    align-items: top;
+}
+
+.hover-goBakcbuttonUS {
+    cursor: pointer;
+    background-color: transparent;
+    transition: transform 0.2s ease-in-out;
+    border: 2px transparent;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.home-iconUS {
+    color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.hover-goBakcbuttonUS:hover {
+    transform: scale(1.1) translateY(-10px);
+}
+
+.buttonUS {
+    cursor: pointer;
+    background-color: transparent;
+    transition: transform 0.2s ease-in-out;
+    border: 2px transparent;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+}
+.buttonUS:hover{
+    transform: scale(1.1) translateY(-10px);
+}
+
+.question-mark {
+    color: white;
+    height: 35px;
+    width: 35px;
+}

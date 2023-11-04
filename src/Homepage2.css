@@ -1,0 +1,60 @@
+.homepage {
+    text-align: center;
+    margin-top: -70px;
+    color: rgb(221, 180, 117);
+    font-family:"Impact" ;
+    font-size: 60px;
+}
+
+.paragaph-text{
+    color: rgb(255, 236, 208);
+    margin-top: -70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hover-button_Plates {
+    background-color: #525252;
+    color: white;
+    padding: 130px 200px;
+    border: 5px solid rgb(100, 143, 216);
+    margin: 0 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background-image: url('/Users/pietrosaveri/Desktop/pasta-website/src/img/plates_grams05.png');
+    background-size: cover;
+}
+
+.hover-button_Plates:hover {
+    transform: scale(1.1);
+    border: 5px solid rgb(10, 145, 55);
+}
+
+.hover-button_Grams {
+    background-color: #525252;
+    color: white;
+    padding: 130px 200px;
+    border: 5px solid rgb(100, 143, 216);
+    margin: 0 100px;
+    border-radius: 20px;
+    background-size: 50px 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background-image: url('/Users/pietrosaveri/Desktop/pasta-website/src/img/grams_plates05.png');
+    background-size: cover;
+}
+
+.hover-button_Grams:hover {
+    transform: scale(1.1);
+    border: 5px solid rgb(10, 145, 55);
+}
+
+
