@@ -7,8 +7,12 @@ The app is available online at [Pasta Converter](https://pasta-converter.netlify
 ### Features
 
 - **Two Plate Types:**
-  - *Flat Plates:** Ideal for long pasta types like spaghetti or linguine.
+  - **Flat Plates:** Ideal for long pasta types like spaghetti or linguine.
   - **Soup Plates:** Best for deeper pasta types like penne or rigatoni.
 - **Conversion Flexibility:** Convert the number of plates to grams or convert grams to plates.
 - **User-Friendly Interface:** Easy to use, with a clean and responsive design that works on both desktop and mobile browsers.
 - **Accurate Calculations:** The converter provides precise amounts of pasta, helping users avoid over or underestimating portions.
+
+### How It Works
+
+The Pasta Converter works by allowing users to input the number of pasta plates they need or the grams of pasta they plan to cook. Based on the type of plate selected, the app will accurately convert the input into the corresponding grams of pasta or number of plates.
